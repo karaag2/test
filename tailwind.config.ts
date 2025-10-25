@@ -12,7 +12,7 @@ for (const [name, color] of Object.entries(colors)) {
 }
 
 export default {
-	content: ["./src/**/*.js,ts,tsx}"],
+	content: ["./src/**/*.{js,ts,tsx}"],
 	plugins: [
 		({ addBase }) =>
 			addBase({

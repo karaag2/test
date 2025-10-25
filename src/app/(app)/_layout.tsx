@@ -5,12 +5,15 @@ import { Fragment } from "react/jsx-runtime";
 import useViewerContext from "src/user/useViewerContext.tsx";
 
 export default function TabLayout() {
-	if (!false) {
-		return <Redirect href="/" />;
-	}
-
 	return (
-		<Stack>
+		<Stack
+			options={{
+				contentStyle: {
+					backgroundColor: "transparent",
+				},
+				headerShown: false,
+			}}
+		>
 			<Stack.Screen
 				name="(tabs)"
 				options={{
@@ -18,6 +21,7 @@ export default function TabLayout() {
 						backgroundColor: "transparent",
 					},
 					headerShown: false,
+					headerTitleAlign: "center",
 				}}
 			/>
 		</Stack>

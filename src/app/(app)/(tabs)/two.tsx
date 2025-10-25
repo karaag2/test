@@ -1,15 +1,12 @@
-import { VStack } from '@nkzw/stack';
-import Text from 'src/ui/Text.tsx';
-import useViewerContext from 'src/user/useViewerContext.tsx';
+import { View, Text } from "react-native";
+import React from "react";
 
-export default function Two() {
-  const { logout } = useViewerContext();
+const two = () => {
+	return (
+		<View>
+			<Text>two</Text>
+		</View>
+	);
+};
 
-  return (
-    <VStack flex1 padding={16}>
-      <Text onPress={logout}>
-        <fbt desc="Two header title">Logout</fbt>
-      </Text>
-    </VStack>
-  );
-}
+export default two;
