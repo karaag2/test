@@ -10,8 +10,10 @@ export const unstable_settings = {
 export default function RootLayout() {
 	return (
 		// <GestureHandlerRootView>
-		<Stack className="!basis-full flex-1" options={{ headerShown: false }}>
-			<Stack.Screen name="index" />
+		<Stack className="!basis-full flex-1">
+			<Stack.Screen name="(app)" options={{ headerShown: false }} />
+			<Stack.Screen name="(auth)" options={{ headerShown: false }} />
+			<Stack.Screen name="index" options={{ headerShown: false }} />
 		</Stack>
 		// </GestureHandlerRootView>
 	);

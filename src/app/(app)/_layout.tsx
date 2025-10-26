@@ -11,7 +11,6 @@ export default function TabLayout() {
 				contentStyle: {
 					backgroundColor: "transparent",
 				},
-				headerShown: false,
 			}}
 		>
 			<Stack.Screen
@@ -21,7 +20,6 @@ export default function TabLayout() {
 						backgroundColor: "transparent",
 					},
 					headerShown: false,
-					headerTitleAlign: "center",
 				}}
 			/>
 		</Stack>

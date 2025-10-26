@@ -17,7 +17,7 @@ export default function Login() {
 
 	return (
 		<SafeAreaView className="flex-1 bg-gray-100">
-			<Stack className="flex-1 bg-steelGreen">
+			<View className="flex-1 bg-steelGreen">
 				{" "}
 				{/* flex-1 pour remplir toute la hauteur */}
 				<View className="flex-1 flex flex-col">
@@ -66,7 +66,7 @@ export default function Login() {
 						</View>
 					</View>
 				</View>
-			</Stack>
+			</View>
 		</SafeAreaView>
 	);
 }
